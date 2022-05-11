@@ -1,13 +1,6 @@
 const about = document.getElementById("aboutLink");
 const darkmode = document.getElementById("darkLink");
 
-const billiesBtn = document.getElementById("billiesBtnId");
-// or
-const billiesBtn = document.getElementsByClassName("billiesBtnClass");
-
-billiesBtn.addEventListener("click"  blar blar blar)
-
-
 ///////ABOUT/////////
 about.addEventListener("click", openAbout);
 function openAbout() {
@@ -23,4 +16,3 @@ function swicthColours() {
   console.log(text, "has been selected");
   mytext.style;
 }
-
