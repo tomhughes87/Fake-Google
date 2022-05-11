@@ -1,18 +1,17 @@
 const express = require("express");
 const app = express();
-
-const googleSearch = ["catsite1", "catsite2", "catsite3", "catsite4"];
+const MygoogleSearch = require("./webdata");
 
 app.get("/", (req, res) => {
   res.send("hello!");
 });
 
 app.get("/search", (req, res) => {
-  res.send(googleSearch);
+  res.send(MygoogleSearch);
 });
 
 app.get("/search/:id", (req, res) => {
-  res.send(googleSearch[req.params.id - 1]);
+  res.send(MygoogleSearch[req.params.id - 1]);
 });
 
 app.listen(3000, () => console.log("Server is live on port 3000!"));
