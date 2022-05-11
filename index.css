@@ -1,3 +1,45 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .nb {
   /* width: fit-content; */
   font-size: x-large;
@@ -22,3 +64,53 @@ nav:active {
 body {
   color: rgb(29, 30, 31);
 }
+
+
+
+#searchBar {
+  border-radius: 30px;
+  border: 0.5px solid grey;
+  width: 500px;
+  height: 45px;
+  padding: 20px;
+  margin: 1em 2em;
+ 
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+
+.footer {
+  text-align: left;
+  padding: 5px;
+  background-color: floralwhite;
+  color:black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.footer{
+  display:grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer2{
+  text-align: center ;   
+}
+
+.footer3{
+   text-align: right;
+}
+
+
+
+
+
