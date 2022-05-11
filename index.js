@@ -10,7 +10,11 @@ function openAbout() {
 ///////darkmode/////////
 darkmode.addEventListener("click", swicthColours);
 function swicthColours() {
-  alert("darkmode pressed");
+  const mainbody = document.querySelector("body");
+  mainbody.style.backgroundColor = "rgb(39, 39, 39)";
+  const mytext = document.getElementsByClassName("navbar-nav");
+  console.log(text, "has been selected");
+  mytext.style;
 }
 
 // document.getElementById("demo").innerHTML = "Hello World";
