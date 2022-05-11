@@ -7,12 +7,25 @@ function openAbout() {
   alert("Welcome to Fake-Google\nThis service was created by Igor and Tom");
 }
 
+// const mainbody = document.querySelector("p");
+// mainbody.style.backgroundColor = "rgb(39, 39, 39)";
+// mainbody.style.color = "red";
+
 ///////darkmode/////////
 darkmode.addEventListener("click", swicthColours);
-function swicthColours() {
-  const mainbody = document.querySelector("body");
-  mainbody.style.backgroundColor = "rgb(39, 39, 39)";
-  const mytext = document.getElementsByClassName("navbar-nav");
-  console.log(text, "has been selected");
-  mytext.style;
+const darkOn = false;
+
+function swicthColours(e) {
+  e.preventDefault();
+  let mainbody = document.querySelector("body");
+
+  if ((darkOn = false)) {
+    mainbody.style.backgroundColor = "rgb(39, 39, 39)";
+    mainbody.style.color = "white";
+    let darkOn = true;
+  } else {
+    mainbody.style.backgroundColor = "white";
+    mainbody.style.color = "black";
+    let darkOn = true;
+  }
 }

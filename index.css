@@ -1,5 +1,24 @@
-.navbar {
-  /* ms-auto */
-  width: fit-content;
-  color: brown;
+.nb {
+  /* width: fit-content; */
+  font-size: x-large;
+  text-align: right;
+}
+/* 
+.nav {
+  padding: 1%;
+  text-decoration: none;
+  
+} */
+
+.nav,
+.nav:hover,
+nav:focus,
+nav:active {
+  text-decoration: none;
+  color: inherit;
+  padding: 1%;
+}
+
+body {
+  color: rgb(29, 30, 31);
 }
