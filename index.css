@@ -1,14 +1,15 @@
-.navbar {
-  /* ms-auto */
+/* .navbar {
+  
   width: fit-content;
   color: brown;
-}
+} */
 
 
 
 .center {
   position: absolute;
-  top: 30%;
+  top: 50%;
+  margin-top: 100px;
   width: 100%;
   text-align: center;
   font-size: 18px;
