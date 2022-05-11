@@ -24,11 +24,3 @@ function swicthColours() {
   mytext.style;
 }
 
-// document.getElementById("demo").innerHTML = "Hello World";
-
-// function myFunction() {
-//
-// }
-
-// someElement.addEventListener("mouseup", handleMouseUp, passiveSupported
-//                                ? { passive: true } : false);
